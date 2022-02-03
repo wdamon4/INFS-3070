@@ -10,11 +10,11 @@ public class HelloWorld {
 		// Code to display message "Hello World AGAIN!" in console.
 		
 		System.out.println("Hello World AGAIN!");
-		
+		/*
 		System.out.println("How are you doing today?");
 		
 		System.out.println("line");
-
+		*/
 	}
 
 }
