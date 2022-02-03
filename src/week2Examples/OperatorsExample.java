@@ -1,3 +1,4 @@
+package week2Examples;
 
 public class OperatorsExample {
 
