@@ -21,7 +21,6 @@ public class arrayListExample {
 		
 		System.out.println(gradeList);
 		
-
 	}
 
 }
