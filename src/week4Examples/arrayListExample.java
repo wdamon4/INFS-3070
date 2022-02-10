@@ -16,7 +16,7 @@ public class arrayListExample {
 		
 		// gradeList.remove(1);
 		
-		// Test retake to change grade
+		// Test re-take to change grade
 		gradeList.set(3, "99");
 		
 		System.out.println(gradeList);
