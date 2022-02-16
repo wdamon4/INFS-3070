@@ -11,7 +11,7 @@ public class ifElseExample {
 		} else if (score == 3) {
 			System.out.println("This could be a field goal");
 		} else if (score < 3) {
-			System.out.println("This i probably a safety");
+			System.out.println("This is probably a safety");
 		} else {
 			System.out.println("I have no idea what you're doing");
 		}

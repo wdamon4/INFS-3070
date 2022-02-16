@@ -10,16 +10,14 @@ public class ItsMe {
 		String studentBirthPlace = "Fort Collins, CO"; 
 		
 		// Displaying each variable on a separate line 
-		System.out.println("My name is " + studentName);
-		System.out.println("I am a " + studentMajor);
-		System.out.println("I was born in " + studentBirthPlace);
-
+		System.out.println("My name is " + studentName + "\n" + "I am a " + studentMajor + "\n" + "I was born in " + studentBirthPlace);
+		
 		// Creating two variables to multiply together, then display the result 
 		int variable1 = 5 ;
 		int variable2 = 8 ; 
-		int answer = variable1 * variable2 ;
 		
-		System.out.println(answer);
+		System.out.println(variable1 * variable2);
+
 	}
 
 }
