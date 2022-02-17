@@ -9,7 +9,7 @@ public class ItsMe {
 		String studentMajor = "Business Marketing major with an INFS minor";
 		String studentBirthPlace = "Fort Collins, CO"; 
 		
-		// Displaying each variable on a separate line 
+		// Displaying each variable in console on a separate line 
 		System.out.println("My name is " + studentName + "\n" + "I am a " + studentMajor + "\n" + "I was born in " + studentBirthPlace);
 		
 		// Creating two variables to multiply together, then display the result 
