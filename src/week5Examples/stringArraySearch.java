@@ -18,7 +18,7 @@ public class stringArraySearch {
 		people.add("Sarah");
 		people.add("Frank");
 		
-		System.out.println("What would you life to search for? ");
+		System.out.println("What would you like to search for? ");
 		Search = scanner.nextLine();
 		
 		System.out.println("What I found: ");
