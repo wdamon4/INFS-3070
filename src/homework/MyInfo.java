@@ -4,7 +4,7 @@ import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class ItsMe {
+public class MyInfo {
 
 	public static void main(String[] args) {
 		
