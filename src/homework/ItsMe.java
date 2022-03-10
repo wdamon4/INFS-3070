@@ -28,7 +28,8 @@ public class ItsMe {
 				
 		// Closing the File
 				fileWriting.close();
-
+				
+		// Adding in final catch statement		
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
