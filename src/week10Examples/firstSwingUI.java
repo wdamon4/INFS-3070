@@ -9,6 +9,11 @@ public class firstSwingUI {
 		String name = JOptionPane.showInputDialog("Enter your name: ");
 		JOptionPane.showMessageDialog(null, "Hello " + name);
 		
+		int age = Integer.parseInt(JOptionPane.showInputDialog("Enter your age: "));
+		
+		// Convert input to integer
+		JOptionPane.showMessageDialog(null, "You are " + age + " years old.");
+		
 	}
 
 }
