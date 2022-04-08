@@ -12,7 +12,7 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.SwingConstants;
 
-public class makeCoffee {
+public class wyattsRedDevilCoffeeRewards {
 
 	private static JLabel noOfCoffee;
 	private static JButton coffeeButton;
@@ -40,7 +40,7 @@ public class makeCoffee {
 	}
 
 	protected static void createFile() {
-		// Making my coupon.txt file
+		// Creating the physical coupon.txt file
 		
 		try {
 			
@@ -88,15 +88,19 @@ public class makeCoffee {
 
 	private static void createUI(JFrame frame) {
 		
+		// Creating the layout specifications for the window
+		// Buy Coffee Button layout
 		coffeeButton = new JButton("Buy Coffee");
 		coffeeButton.setBounds(120, 50, 115, 25);
 		coffeeButton.setHorizontalAlignment(SwingConstants.CENTER);
 		
+		// Number of coffees label layout
 		JLabel coffee_label = new JLabel("Number of Coffees: ");
-		coffee_label.setBounds(110, 80, 150, 30);
+		coffee_label.setBounds(120, 90, 115, 25);
 		
+		// # of times button was pressed layout
 		noOfCoffee = new JLabel("0");
-		noOfCoffee.setBounds(230, 80, 150, 30);
+		noOfCoffee.setBounds(240, 90, 115, 25);
 		
 		JLabel label = new JLabel("");
 		
