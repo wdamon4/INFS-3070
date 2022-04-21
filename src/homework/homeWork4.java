@@ -44,13 +44,13 @@ public class homeWork4 {
 			System.out.println(m1.getKey()+ "" + m1.getValue());
 		}
 		
-		System.out.println();
+		System.out.println(); //extra space in between lines
 		String ch="";
 		String fil="";
 		System.out.println("Would you like to write to a file? (yes/no)"); 
 		ch = sc.next();
 		if(ch.equals("yes"));{
-			System.out.println();
+			System.out.println(); //extra space in between lines
 			System.out.println("Enter the file name"); //prompting user to enter file name
 			fil = sc.next();
 			BufferedWriter b=new BufferedWriter(new FileWriter(fil));
@@ -59,6 +59,7 @@ public class homeWork4 {
 				b.newLine();
 			}
 		}
+			System.out.println(); //extra space in between lines
 			System.out.println("Thanks for playing!"); //closing statement
 		}
 	}
