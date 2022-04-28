@@ -86,15 +86,17 @@ public class ACMEBank implements ActionListener {
 
 		if (e.getSource() == c1) {
 	
+			// get deposit amount and add to balance
 		try {
 			double amount = Double.parseDouble(b1.getText());
 			balance += amount;
 			d4.setText("$ " + balance);
-			
+		
 		} catch (NumberFormatException ee) {
-			JOptionPane.showMessageDialog(a, "Only enter number please");
+			JOptionPane.showMessageDialog(a, "Invalid entry");
 		}
 		
+		// get withdrawal amount and subract from balance 
 	} else if (e.getSource() == c2) {
 		try {
 			
@@ -104,7 +106,7 @@ public class ACMEBank implements ActionListener {
 			d4.setText("$ " + balance);
 			
 		} catch (NumberFormatException ee) {
-			JOptionPane.showMessageDialog(a, "Only enter numbers please");
+			JOptionPane.showMessageDialog(a, "Invalid Entry");
 		}
 	} else if (e.getSource() == c3) {
 		b1.setText("");
