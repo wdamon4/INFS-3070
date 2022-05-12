@@ -7,7 +7,7 @@ public class dbConnection {
 	 public static Connection connection() {
 	        
 	        // Create and initialize variables to connect to database
-	                    String url = "jdbc:mysql://129.198.162.204/INFS3070";
+	                    String url = "jdbc:mysql://localhost/INFS3070";
 	                    String user = "infsclass";
 	                    String password = "webclass";
 	                    Connection conn = null;
