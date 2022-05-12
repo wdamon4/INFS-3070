@@ -11,7 +11,7 @@ public static void main(String[] args) {
 
 	Gravity g = new Gravity();
 	
-	System.out.printf("%5s %17s %15s \n","Time","Distance Earth","Distance Moon");
+	System.out.printf("%5s %17s %16s \n","Time","Distance Earth","Distance Moon");
 	
 	for (int i = 1; i <= 10; i++) {
 		
